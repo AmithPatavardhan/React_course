@@ -1,10 +1,13 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 // example 1 simple flow
 // createElement accepts 3 arguments 1st htmlnode(tag), 2nd props/attributes and lastly childerns
 
 
 const messagenode = React.createElement('div', {
     id: 'test'
-}, "Hello I am here learning React as a begnier");
+}, "Hello I am here learning React as a begniersss");
 console.log(messagenode)
 const getroot = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -25,9 +28,9 @@ const nestednode = React.createElement("div", {
     id: "child"
 }, [React.createElement("h1", {
     id: "h1"
-}, "hello I am nested tag"), React.createElement("h6", {
+}, "hello I gsssssssssssssssssssssssss nested tag"), React.createElement("h6", {
     id: "h6"
-}, "hello I am nested tag2")]),React.createElement("div", {
+}, "hello I am nested tagsd2")]),React.createElement("div", {
     id: "child2"
 }, [React.createElement("h1", {
     id: "h1"
